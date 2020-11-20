@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="sitetest.css" />
+		<title> site test FGO </title>
+</head>
+<body>
+<header id=top>
+<h1>Site test FGO</h1>
+<h2>Bienvenue sur mon site ! </h2>
+</header>
+
+<nav>
+	<h1>Menu</h1>
+	<ul>
+		<li><a href="#présentation">Présentation du jeu</a></li>
+		<li><a href="#gameplay">Gameplay</a></li>
+		<li><a href="#servants">Liste de Servants</a></li>
+		<li><a href=#Saber>Saber</a></li>
+	 	<li><a href=#Lancer>Lancer</a></li>
+ 		<li><a href=#Archer>Archer</a></li>
+		<li><a href=#Rider>Rider</a></li>
+		<li><a href=#Caster>Caster</a></li>
+		<li><a href=#Assassin>Assassin</a></li>
+		<li><a href=#Berserker>Berserker</a></li>
+		<li><a href=#contact>Contacts</a></li>
+	</ul>
+</nav>
+
+<div class=bloc>
+<section>
+	<article>
+<p>Bonjour, et bienvenue sur mon site test sur lequel je vais présenter le jeu <mark>Fate Grand Order</mark> ainsi que la liste des unités disponibles dans le jeu.<br/>
+	Cependant, il n'y a qu'une partie de ces unités car ce site n'a pour but que de m'entraîner à la création de sites et éventuellement faire découvrir le jeu.</p>
+</article>
+
+<article>
+<h2 id="présentation">Présentation du jeu</h2>
+<p> Fate Grand Order (FGO) est un jeu mobile free-to-play de type gacha, c'est à dire un jeu où l'on doit utiliser la monnaie du jeu (souvent premium) pour obtenir des unités plus ou moins rares au hasard.<br/>
+	Le jeu est basé sur la franchise cross media <mark>Fate</mark> de <mark>Type-Moon</mark>, ayant débuté avec un Visual novel <em>"Fate/Stay Night"</em>, puis a été adaptée en de nombreux animés, jeux et mangas.<br/>
+	Dans l'univers, des <strong>personnages historiques ou mythologiques</strong> sont invoqués pour combattre, ce sont les <strong>Servants</strong>.<br/>
+	Je ne vais pas détailler plus, vous pouvez vous renseigner sur Wikipédia si cela vous intéresse. <br/>
+	FGO lui même a été adapté en un animé (déjà diffusé) et une duologie de films (à venir).<br/>
+	Les combats se font au tour par tour, vos unités attaquent, puis c'est au tour des ennemis.<br/>
+	Nous allons voir dans la prochaine partie le gameplay du jeu.</p>
+</article>
+
+<article>
+
+<h2 id="gameplay">Le gameplay</h2>
+<p>Nous avons vu que les combats se faisaient en tour par tour. Intéressons nous donc plus en profondeur au gameplay: <br/>
+Le groupe de servant lors des combats, est composé de 6 unités, 3 sur la ligne de front, qui attaquera l'ennemi, et 3 en ligne arrière, qui viennent remplacer les servants lorsqu'ils meurent au combat. De plus, l'un de ces servant est obligatoirement choisi dans une séleciton d'unités appartenant à une liste d'amis. <br/>
+Chaque unité possède une <strong>classe</strong> que l'on verra plus loin, qui est en rapport avec la légende du personnage. Par exemple, <em>Artoria Pendragon</em>, utilisant son épée Excalibur, est de classe Saber.<br/> Il y a un système de "pierre, feuille, ciseau", une classe aura l'avantage sur une autre, mais sera faible face à une troisième.</p>
+
+<aside>
+	<figure><a href=Images/combat.jpg target=_blank><img src=Images/COMBAT.jpg width=100% height=100% alt="ecran combat" title="ecran combat"/></a><figcaption>Cliquez pour ouvrir l'image en grand</figcaption></figure>
+	<ol>
+		<li>Sélection des cartes</li>
+		<li>Critical Stars</li>
+		<li>Servant</li>
+		<li>Compétences du Servant</li>
+		<li>Infos du Servant (Nom, Classe, LvL, HP, NP)</li>
+		<li>Infos des ennemis</li>
+</ol>
+</aside>
+<p>Chaque servant dispose d'un deck de 5 cartes de 3 couleurs : <strong>Quick</strong>, <strong>Buster</strong> ou <strong>Arts</strong>, que nous détailleront plus loin. Pour attaquer, il faut sélectionner 3 cartes d'une main composée de 5 cartes choisies au hasard dans le deck des 3 servant de la ligne de front, donc 15 cartes au total. Ainsi au bout de 3 tour, les cartes se réinitialiseront.<br/> 
+Chaque servant possèdent 3 compétences utilisables lors du tour de joueur, de plusieurs passifs qui modifient les stats des unités, ainsi que d'une carte ultime disponible lorsqu'une jauge est remplie à 100%.<br/>
+Revenons sur les attributs des cartes: </p>
+
+
+<ul>
+<li>les cartes <strong class=quick>Quick</strong>, en vert, permettent de créer des <strong>Critical stars</strong> lors de l'attaque, elles permettent de rendre potentiellement critique l'une des cartes du tour suivant si ladite carte a obtenu assez d'étoiles. En effet, 1 étoile donne 10% de chance de coup critique,ainsi 10 étoiles permettent d'obtenir 100% de chances de critique.  </li>
+<li>les cartes <strong class=art>Arts</strong>, en bleu, permettent de remplir la jauge spéciale de l'attaque ultime du servant, le <strong>Noble Phantasm</strong> (détaillé plus loin). Le taux de remplissage de la jauge dépend de chaque servant car chacun a un taux de remplissage différent.</li>
+<li>les cartes <strong class=buster>Buster</strong>, en rouge, sont les cartes qui font le plus de dégâts, les attaques de celles-ci <strong>ignorent la défense</strong>. En revanche, elles ne créent que très peu de C. stars et ne remplit pratiquement pas la jauge de NP.</li>
+</ul>
+<p class=stop>Les <strong class=np>Nobles phantasm (NP)</strong> sont les attaques ultimes des servants dans l'univers de Fate. Comme pour la classe du Servant,ils correspondent à l'utilisation d'artefacts en lien avec leurs légendes, par exemple, Artoria Pendragon a pour Noble Phantasm Excalibur.<br/>  Dans le jeu elle sont représentées par des cartes spéciales, avec chacune leurs couleurs propre selon l'unité, qui sont utilisables à la place des cartes normales. Pour l'obtenir il faut remplir la jauge de NP à 100% en utilisant les cartes (notamment Arts) ou en utilisant des compétences permettant de la remplir. <br/>
+De plus chacun peut soit cibler <strong>tous les ennemis (Area Of Effect, AOE), soit un seul (Single target, ST), ou il peut apporter des bonus à l'équipe ou des malus aux ennemis (Support)</strong><br/>
+Vous pouvez trouver une vidéo de NP en suivant <a href="https://www.youtube.com/watch?v=I5mC7rkiTeA" target=_blank>ce lien</a>.</p>
+
+		<aside>
+ <figure><a href=Images/quickchain.jpg target=_blank><img src=Images/quickchain.jpg width=100% height=100% alt="Quick chain" title="Quick chain"/></a><figcaption>Exemple d'une Quick chain</figcaption></figure>
+ <figure><a href=Images/bravechain.jpg target=_blank><img src=Images/bravechain.jpg width=100% height=100% alt="brave chain" title="Brave chain"/></a><figcaption>Exemple d'une Brave chain</figcaption></figure>
+</aside>
+
+<p>Enfin, il y a les combos de cartes et les bonus:</p>
+<ul>
+	<li>Lors du choix des cartes, la première utilisée octroiera un bonus aux 2 autres. Une Quick augmentera le taux de création des autres cartes, une Arts augmentera le % de remplissage de la jauge de NP des autres cartes, et une Buster augmentera les dégâts des cartes suivantes.</li>
+
+	<li>Si 3 cartes de même couleur sont choisi, il y a une <em>"same type chain"</em>, ainsi les bonus octroyés par la couleur de la chaîne seront de plus en plus puissants et auront de plus un bonus. Par exemple, une chaîne d'Arts augmente de 20% le NP des servants impliqués dans l'attaque. Si c'est une chaîne Quick ,on obtient directement 10 C. stars, et si c'est Buster, alors les dégâts sont augmentés. </li>
+	
+	<li>Si les 3 cartes proviennent du même servant, alors il s'agit d'une <em>"Brave Chain"</em> et une <em>"extra card"</em>, une attaque supplémentaire gratuite, est effectuée par le servant.</li>
+</ul>
+ <p class=stop>Voilà pour le gameplay en combat.</p>
+<p>Enfin, je ne vais pas m'attarder sur l'amélioration des unités. En effet, on peut augmenter leurs niveaux, avec de l'expérience, mais également leurs NP en utilisant une copie du servant que l'on veut améliorer. L'attaque et les hp peuvent aussi être augmentée.</p>
+</article>
+</section>
+
+<section>
+<article>
+<h2 id="servants">Liste des Servants</h2>
+<p>Chaque Servant fait partie d'une classe, il y en avait 7 à l'origine avec Fate/Stay Night, mais désormais, il en existe 13, les 6 nouvelles étant labélisées <strong>"Special classes"</strong>.<br/>
+Voici donc la liste des unités classées par classes puis par rareté. Je ne présenterai que les unités les plus rares, les <em class=np>5 étoiles (SSR)</em> et les <em class=np>4 étoiles (SR)</em>.<br/>
+Je ne vais présenter que les 7 classes originelles pour l'instant. <br/>
+Voici donc la liste des unités classées par classes puis par rareté. Je ne présenterai que les unités les plus rares, les <em class=np>5 étoiles (SSR)</em> et les <em class=np>4 étoiles (SR)</em>.<br/>
+Je ne vais présenter que les 7 classes originelle
+De plus, chaque unité sera accompagnée d'un lien vers le site <a href=https://gamepress.gg/grandorder/ target=_blank>FGO Gamepress</a> qui est l'un des meilleurs sites sur le jeu.<br/>
+PS: Si j'ai utilisé un tableau c'est parce que dans le futur je ferais en sorte que l'on puisse l'organiser par ordre alphabétique en cliquant sur la colonne voulue </p>
+</article>
+
+	<article>
+		<h2 id=Saber>SABER</h2>
+		<p>La classe Saber est composée d'épéistes. <br/>Ils ont <strong>l'avantage contre la classe Lancer</strong>, mais sont <strong>désavantagés contre les Archer</strong>.</p>
+		<h3> SSR </h3>
+		
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/altria-pendragon target=_blank> <figure><img src=Images/ArtoriaPendragonIcon.webp alt="icone Artoria Pendragon" title="Artoria Pendragon"/><figcaption>Artoria Pendragon</figcaption></figure></a></td>
+			<td>Excalibur</td>
+			<td><span class="buster">Buster</span></td>
+			<td>AOE</td>
+			</tr>	
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/mordred target=_blank> <figure><img src=Images/Mordredicon.webp alt="icone mordred" title="Mordred"><figcaption>Mordred</figcaption></figure></a></td>
+			<td>Clarent Blood Arthur</td>
+			<td><span class="buster">Buster</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/ryougi-shiki-saber target=_blank> <figure><img src=Images/Ryougisabericon.webp alt="icone ryougi saber" title="Ryougi Shiki (saber)"/><figcaption>Ryougi Shiki (Saber)</figcaption></figure></a></td>
+			<td>Amalavijñāna - Boundary of Emptiness</td>
+			<td><span class="art">Arts</span></td>
+			<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/miyamoto-musashi target=_blank> <figure><img src=Images/musashi_icon.webp alt="icone musashi" title="Miyamoto Musashi"/><figcaption>Miyamoto Musashi</figcaption></figure></a></td>
+			<td>Six Paths, Five Rings: Kurikara Divine Blade</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/okita-souji target=_blank> <figure><img src=Images/okitaicon.webp alt="icone okita" title="Okita Souji"/><figcaption>Okita Souji </figcaption></figure></a></td>
+			<td>Mumyou Sandanzuki</td>
+				<td><span class="quick">Quick</span></td>
+				<td>ST</td>
+			</tr>
+		</table>
+
+	</article>
+
+	<article>
+
+		<h3>SR</h3>
+
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/nero-claudius target=_blank> <figure><img src=Images/neroicon.webp alt="icone nero" title="Nero Claudius"><figcaption>Nero Claudius</figcaption></figure></a></td>
+			<td>Laus Saint Claudius</td>
+			<td><span class="art">Arts</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/siegfried target=_blank> <figure><img src=Images/siegicon.webp alt="icone siegfried" title="Siegfried"/><figcaption>Siegfried</figcaption></figure></a></td>
+			<td>Balmung</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/lancelot-saber target=_blank> <figure><img src=Images/lancelot_saber_icon.webp alt="icone lancelot" title="Lancelot (saber)"/><figcaption>Lancelot (Saber)</figcaption></figure></a></td>
+			<td>Arondight Overload</td>
+				<td><span class="art">Arts</span></td>
+				<td>ST</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/yagyu-munenori target=_blank> <figure><img src=Images/S187.webp alt="icone yagyu" title="Yagyu Munenori"/><figcaption>Yagyu Munenori</figcaption></figure></a></td>
+			<td>Kenjutsu Musou - Kenzen Ichinyo</td>
+				<td><span class="art">Arts</span></td>
+				<td>ST</td>
+			</tr>		
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/frankenstein-saber target=_blank> <figure><img src=Images/fransummer.webp alt="icone frankenstein saber" title="Frankenstein (saber)"/><figcaption>Frankenstein (Saber)</figcaption></figure></a></td>
+			<td>Skewered Plasma Blade</td>
+				<td><span class="quick">Quick</span></td>
+				<td>ST</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+		<h2 id=Lancer>LANCER</h2>
+		<p>La classe Lancer est composée de lanciers. <br/> Ils ont <strong>l'avantage contre la classe Archer</strong>, mais sont <strong>désavantagés contre les Saber</strong>.</p>
+		<h3> SSR </h3>
+		
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/scathach target=_blank> <figure><img src=Images/scathachicon.webp alt="icone Scathach" title="Scathach"><figcaption>Scathach</figcaption></figure></a></td>
+			<td>Gáe Bolg Alternative</td>
+			<td><span class="quick">Quick</span></td>
+			<td> ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/brynhild target=_blank> <figure><img src=Images/brynicon.webp alt="icone Brynhild" title="Brynhild"/><figcaption>Brynhild</figcaption></figure></a></td>
+			<td>Brynhild Romantia</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/Enkidu target=_blank> <figure><img src=Images/enkiduicon.webp alt="icone Enkidu" title="Enkidu"/><figcaption>Enkidu</figcaption></figure></a></td>
+			<td>Enuma Elish (Enkidu)</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/ereshkigal target=_blank> <figure><img src=Images/Icon_Servant_196.webp alt="icone ereshkigal" title="Ereshkigal"/><figcaption>Ereshkigal</figcaption></figure></a></td>
+			<td>Kur Ki Gal Irkalla</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/karna target=_blank> <figure><img src=Images/karnaicon.webp alt="icone Karna" title="Karna"/><figcaption>Karna </figcaption></figure></a></td>
+			<td>Vasavi Shakti</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+
+		<h3>SR</h3>
+
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/elisabeth-bathory target=_blank> <figure><img src=Images/elizaicon.webp alt="icone elisabeth" title="Elisabeth Bathory"><figcaption>Elisabeth Bathory</figcaption></figure></a></td>
+			<td>Bathory Erzsebet</td>
+			<td><span class="buster">Buster</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/nezha target=_blank> <figure><img src=Images/Icon_Servant_193.webp alt="icone Nezha" title="Nezha"/><figcaption>Nezha</figcaption></figure></a></td>
+			<td>Flying Bright Spirit, Fire-Tipped Spear</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/medusa-lancer target=_blank> <figure><img src=Images/Medusalancericon.webp alt="icone medusa" title="Medusa (Lancer)"/><figcaption>Medusa (Lancer)</figcaption></figure></a></td>
+			<td>Caress of the Medusa</td>
+				<td><span class="quick">Quick</span></td>
+				<td>ST</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/valkyrie target=_blank> <figure><img src=Images/S214Icon.webp alt="icone valkyrie" title="Valkyrie"/><figcaption>Valkyrie</figcaption></figure></a></td>
+			<td>Ragnarök Lífþrasir</td>
+				<td><span class="quick">Quick</span></td>
+				<td>AOE</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/caenis target=_blank> <figure><img src=Images/S279Icon.webp alt="icone Caenis" title="Caenis"/><figcaption>Caenis</figcaption></figure></a></td>
+			<td>Lapithae Caenis</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+		<h2 id=Archer>ARCHER</h2>
+		<p>La classe Archer est composée d'archers.<br/>Ils ont <strong>l'avantage contre la classe Saber</strong>, mais sont <strong>désavantagés contre les Lancer</strong>.</p>
+		<h3> SSR </h3>
+		
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/arjuna target=_blank> <figure><img src=Images/arjunaicon.webp alt="icone arjuna" title="Arjuna"><figcaption>Arjuna</figcaption></figure></a></td>
+			<td>Pashupata</td>
+			<td><span class="buster">Buster</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/gilgamesh target=_blank> <figure><img src=Images/gilicon.webp alt="icone gilgamesh" title="Gilgamesh"/><figcaption>Gilgamesh</figcaption></figure></a></td>
+			<td>Enuma Elish</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/ishtar target=_blank> <figure><img src=Images/ishtar_icon.webp alt="icone ishtar" title="Ishtar"/><figcaption>Ishtar</figcaption></figure></a></td>
+			<td>An Gal Ta Ki gal Šè</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/napoleon target=_blank> <figure><img src=Images/S212icon.webp alt="icone Napoleon" title="Napoleon"/><figcaption>Napoleon</figcaption></figure></a></td>
+			<td>Arc de Triomphe de l'Étoile</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/archer-shinjuku target=_blank> <figure><img src=Images/ShinjukuArchericon.webp alt="icone Moriarty" title="Moriarty"/><figcaption>Moriarty </figcaption></figure></a></td>
+			<td>The Dynamics of an Asteroid</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+
+		<h3>SR</h3>
+
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/atalante target=_blank> <figure><img src=Images/atalantaicon.webp alt="icone Atalante" title="Atalante"><figcaption>Atalante</figcaption></figure></a></td>
+			<td>Phoebus Catastrophe</td>
+			<td><span class="quick">Quick</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/chiron target=_blank> <figure><img src=Images/chironicon.webp alt="icone chiron" title="Chiron"/><figcaption>Chiron</figcaption></figure></a></td>
+			<td>Antares Snipe</td>
+				<td><span class="art">Arts</span></td>
+				<td>ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/emiya target=_blank> <figure><img src=Images/emiyaicon.webp alt="icone emiya" title="Emiya"/><figcaption>Emiya</figcaption></figure></a></td>
+			<td>Unlimited Blade Works</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/archer-inferno target=_blank> <figure><img src=Images/S184.webp alt="icone tomoe" title="Tomoe Gozen"/><figcaption>Tomoe Gozen</figcaption></figure></a></td>
+			<td>On Arorikya Sowaka</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>		
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/tristan target=_blank> <figure><img src=Images/tristanicon.webp alt="icone Tristan" title="Tristan"/><figcaption>Tristan</figcaption></figure></a></td>
+			<td>Failnaught</td>
+				<td><span class="quick">Quick</span></td>
+				<td>ST</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+		<h2 id=Rider>RIDER</h2>
+		<p>La classe Rider est composée de cavaliers ou de personnages étroitement liés à un véhicule. <br/>Ils ont <strong>l'avantage contre la classe Caster</strong>, mais sont <strong>désavantagés contre les Assassin</strong>.</p>
+		<h3> SSR </h3>
+		
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/quetzalcoatl target=_blank> <figure><img src=Images/quetzicon.webp alt="icone quetzalcoatl" title="Quetzalcoatl"><figcaption>Quetzalcoatl</figcaption></figure></a></td>
+			<td>Xiuhcoatl</td>
+			<td><span class="buster">Buster</span></td>
+			<td> ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/iskandar target=_blank> <figure><img src=Images/iskandaricon.webp alt="icone iskandar" title="Iskandar"/><figcaption>Iskandar</figcaption></figure></a></td>
+			<td>Ionioi Hetairoi</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/europa target=_blank> <figure><img src=Images/S274icon.webp alt="icone europa" title="Europa"/><figcaption>Europa</figcaption></figure></a></td>
+			<td>Sfyri tou Talos</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/ozymandias target=_blank> <figure><img src=Images/ozymandiasicon.webp alt="icone Ozymandias" title="Ozymandias"/><figcaption>Ozymandias</figcaption></figure></a></td>
+			<td>Ramesseum Tentyris</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/francis-drake target=_blank> <figure><img src=Images/drakeicon.webp alt="icone Francis Drake" title="Francis Drake"/><figcaption>Francis Drake </figcaption></figure></a></td>
+			<td>Golden Wild Hunt</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+		</table>
+
+	</article>
+
+	<article>
+
+		<h3>SR</h3>
+
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/nero-claudius target=_blank> <figure><img src=Images/mordredridericon.webp alt="icone Mordred (rider)" title="Mordred (Rider)"><figcaption>Mordred (Rider)</figcaption></figure></a></td>
+			<td>Prydwen Tube Riding</td>
+			<td><span class="art">Arts</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/astolfo target=_blank> <figure><img src=Images/astolfoicon.webp alt="icone astolfo" title="Astolfo"/><figcaption>Astolfo</figcaption></figure></a></td>
+			<td>Hippogriff</td>
+				<td><span class="quick">Quick</span></td>
+				<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/sakamoto-ryouma target=_blank> <figure><img src=Images/Icon_S211.webp alt="icone Sakamoto Ryouma" title="Sakamoto Ryouma"/><figcaption>Sakamoto Ryouma</figcaption></figure></a></td>
+			<td>Amakakeru Ryu ga Gotoku</td>
+				<td><span class="art">Arts</span></td>
+				<td>ST</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/marie-antoinette target=_blank> <figure><img src=Images/marieicon.webp alt="icone Marie Antoinette" title="Marie Antoinette"/><figcaption>Marie Antoinette</figcaption></figure></a></td>
+			<td>Guillotine Breaker</td>
+				<td><span class="quick">Quick</span></td>
+				<td>AOE</td>
+			</tr>		
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/anne-bonny-mary-read target=_blank> <figure><img src=Images/anneicon.webp alt="icone anne bonny & mary read" title="Anne Bonny & Mary Read"/><figcaption>Anne Bonny & Mary Read</figcaption></figure></a></td>
+			<td>Caribbean Free Bird</td>
+				<td><span class="quick">Quick</span></td>
+				<td>ST</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+		<h2 id=Caster>CASTER</h2>
+		<p>La classe Caster est composée de mages.<br/> ils ont <strong>l'avantage contre la classe Assassin</strong>, mais sont <strong>désavantagés contre les Rider</strong>.</p>
+		<h3> SSR </h3>
+		
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/anastasia-nikolaevna-romanova target=_blank> <figure><img src=Images/anastasiaicon.webp alt="icone Anastasia" title="Anastasia Romanova"><figcaption>Anastasia Romanova</figcaption></figure></a></td>
+			<td>Viy Viy Viy</td>
+			<td><span class="art">Arts</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/leonardo-da-vinci target=_blank> <figure><img src=Images/davinciicon.webp alt="icone Leonardo Da Vinci" title="Leonardo Da Vinci"/><figcaption>Leonardo Da Vinci</figcaption></figure></a></td>
+			<td>Uomo Universale</td>
+				<td><span class="art">Arts</span></td>
+				<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/merlin target=_blank> <figure><img src=Images/merlinicon.webp alt="icone merlin" title="Merlin"/><figcaption>Merlin</figcaption></figure></a></td>
+			<td>Garden of Avalon</td>
+				<td><span class="art">Arts</span></td>
+				<td>Support</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/xuanzang-sanzang target=_blank> <figure><img src=Images/xuanzangicon.webp alt="icone xuanzang-sanzang" title="Xuanzang Sanzang"/><figcaption>Xuanzang-Sanzang</figcaption></figure></a></td>
+			<td>Five Elements Mountain Buddha Palm</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/tamamo-no-mae target=_blank> <figure><img src=Images/tamamocastericon.webp alt="icone tamamo-no-mae" title="Tamamo-no-Mae"/><figcaption>Tamamo-no-Mae </figcaption></figure></a></td>
+			<td>Eightfold Blessing of Amaterasu</td>
+				<td><span class="art">Arts</span></td>
+				<td>Support</td>
+			</tr>
+		</table>
+
+	</article>
+
+	<article>
+
+		<h3>SR</h3>
+
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/helena-blavatsky target=_blank> <figure><img src=Images/helenaicon.webp alt="icone helena blavatsky" title="Helena Blavatsky"><figcaption>Helena Blavatsky</figcaption></figure></a></td>
+			<td>Sanat Kumara</td>
+			<td><span class="art">Arts</span></td>
+			<td> AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/caster-okeanos target=_blank> <figure><img src=Images/Icon_Servant_192.webp alt="icone circé" title="Circé"/><figcaption>Circé</figcaption></figure></a></td>
+			<td>Metabole Piglets</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/caster-midrash target=_blank> <figure><img src=Images/Icon_Servant_194.webp alt="icone Queen of Sheba" title="Queen of Sheba"/><figcaption>Queen of Sheba</figcaption></figure></a></td>
+			<td>Three Enigmas</td>
+				<td><span class="art">Arts</span></td>
+				<td>ST</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/nitocris target=_blank> <figure><img src=Images/nitocrisicon.webp alt="icone Nitocris" title="Nitocris"/><figcaption>Nitocris</figcaption></figure></a></td>
+			<td>Anpu Neb Ta Djeser</td>
+				<td><span class="art">Arts</span></td>
+				<td>AOE</td>
+			</tr>		
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/nursery-rhyme target=_blank> <figure><img src=Images/rhymeicon.webp alt="icone nursery rhyme" title="Nursery Rhyme"/><figcaption>Nursery Rhyme</figcaption></figure></a></td>
+			<td>Nursery Rhyme</td>
+				<td><span class="art">Arts</span></td>
+				<td>AOE</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+		<h2 id=Assassin>ASSASSIN</h2>
+		<p>La classe Assassin est composée d'assassins et autres guerriers de l'ombre. <br/>Ils ont <strong>l'avantage contre la classe Rider</strong>, mais sont <strong>désavantagés contre les Caster</strong>.</p>
+		<h3> SSR </h3>
+		
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/jack-ripper target=_blank> <figure><img src=Images/jackicon.webp alt="icone Jack the Ripper" title="Jack the Ripper"><figcaption>Jack the Ripper</figcaption></figure></a></td>
+			<td>Maria the Ripper</td>
+			<td><span class="quick">Quick</span></td>
+			<td> ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/cleopatra target=_blank> <figure><img src=Images/Cleopatra_icon.webp alt="icone Cleopatra" title="Cleopatra"/><figcaption>Cleopatra</figcaption></figure></a></td>
+			<td>Uraeus Astrape</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/first-hassan target=_blank> <figure><img src=Images/kinghassanicon.webp alt="icone first hassan" title="First Hassan-i Sabbah"/><figcaption>First Hassan-i Sabbah</figcaption></figure></a></td>
+			<td>Azrael</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/semiramis target=_blank> <figure><img src=Images/Icon_Servant_199.webp alt="icone semiramis" title="Semiramis"/><figcaption>Semiramis</figcaption></figure></a></td>
+			<td>Hanging Gardens of Babylon</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/shuten-douji target=_blank> <figure><img src=Images/shutenicon.webp alt="icone Shuten Douji" title="Shuten Douji"/><figcaption>Shuten Douji </figcaption></figure></a></td>
+			<td>Multicolored Poison - Shinpen Kidoku</td>
+				<td><span class="art">Arts</span></td>
+				<td>AOE</td>
+			</tr>
+		</table>
+
+	</article>
+
+	<article>
+
+		<h3>SR</h3>
+
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/assassin-nightless-city target=_blank> <figure><img src=Images/AssassinofNightlessCity.webp alt="icone Wu Zetian" title="Wu Zetian"><figcaption>Wu Zetian</figcaption></figure></a></td>
+			<td>Manual of Accusation</td>
+			<td><span class="quick">Quick</span></td>
+			<td> ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/carmilla target=_blank> <figure><img src=Images/carmillaicon.webp alt="icone Carmilla" title="Carmilla"/><figcaption>Carmilla</figcaption></figure></a></td>
+			<td>Phantom Maiden</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/ryougi-shiki-assassin target=_blank> <figure><img src=Images/ryougiassassinicon.webp alt="icone Ryougi Shiki (Assassin)" title="Ryougi Shiki (Assassin)"/><figcaption>Ryougi Shiki (Assassin)</figcaption></figure></a></td>
+			<td>Vijñapti-mātratā: Mystic Eyes of Death Perception</td>
+				<td><span class="art">Arts</span></td>
+				<td>ST</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/katou-danzo target=_blank> <figure><img src=Images/S188.webp alt="icone Katou Danzo" title="Katou Danzo"/><figcaption>Katou Danzo</figcaption></figure></a></td>
+			<td>Karakuri Genpou - Dongyu</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>		
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/stheno target=_blank> <figure><img src=Images/sthenoicon.webp alt="icone Stheno" title="Stheno"/><figcaption>Stheno</figcaption></figure></a></td>
+			<td>Smile of the Stheno</td>
+				<td><span class="buster">Buster</span></td>
+				<td>Support</td>
+			</tr>
+		</table>
+	</article>
+
+	<article>
+		<h2 id=Berserker>BERSERKER</h2>
+		<p>La classe Berserker est particulière, ils ont perdu la raison au profit d'une puissance accrue. <br/>Ils ont <strong>l'avantage contre toutes les classes</strong>, mais sont également <strong>désavantagés contre toutes les classes</strong>.</p>
+		<h3> SSR </h3>
+		
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/hijikata-toshizo target=_blank> <figure><img src=Images/hijikataicon.webp alt="icone Hijikata Toshizo" title="Hijikata Toshizo"><figcaption>Hijikata Toshizo</figcaption></figure></a></td>
+			<td>Shinsengumi</td>
+			<td><span class="buster">Buster</span></td>
+			<td> ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/nightingale target=_blank> <figure><img src=Images/nightingaleicon.webp alt="icone Florence Nightingale" title="Florence Nightingale"/><figcaption>Florence Nightingale</figcaption></figure></a></td>
+			<td>Nightingale Pledge</td>
+				<td><span class="art">Arts</span></td>
+				<td>Support</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/arjuna-alter target=_blank> <figure><img src=Images/s247icon.webp alt="icone Arjuna Alter" title="Arjuna Alter"/><figcaption>Arjuna Alter</figcaption></figure></a></td>
+			<td>Mahapralaya</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/vlad-iii target=_blank> <figure><img src=Images/vladicon.webp alt="icone Vlad III" title="Vlad III"/><figcaption>Vlad III</figcaption></figure></a></td>
+			<td>Kazikli Bey</td>
+				<td><span class="art">Arts</span></td>
+				<td>ST</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/minamoto-no-raikou target=_blank> <figure><img src=Images/Yorimitsuicon.webp alt="icone Minamoto-no-Raikou" title="Minamoto-no-Raikou"/><figcaption>Minamoto-no-Raikou </figcaption></figure></a></td>
+			<td>Vengeful Lightning of the Ox-King</td>
+				<td><span class="buster">Buster</span></td>
+				<td>AOE</td>
+			</tr>
+		</table>
+
+	</article>
+
+	<article>
+
+		<h3>SR</h3>
+
+		<table>
+			<tr>
+				<th>Servant</th>
+				<th>Nom du NP</th>
+				<th>Type de NP</th>
+				<th>Cible du NP</th>
+			</tr>
+			<tr>
+			<td> <a href=https://gamepress.gg/grandorder/servant/heracles target=_blank> <figure><img src=Images/heraclesicon.webp alt="icone Heraclès" title="Heraclès"><figcaption>Heraclès</figcaption></figure></a></td>
+			<td>Nine Lives</td>
+			<td><span class="buster">Buster</span></td>
+			<td> ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/berserker-el-dorado target=_blank> <figure><img src=Images/BerserkerOfElDoradoIcon.webp alt="icone Penthesilea" title="Penthesilea"/><figcaption>Penthesilea</figcaption></figure></a></td>
+			<td>Outrage Amazon</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/frankenstein target=_blank> <figure><img src=Images/frankicon.webp alt="icone Frankenstein" title="Frankenstein"/><figcaption>Frankenstein</figcaption></figure></a></td>
+			<td>Blasted Tree</td>
+				<td><span class="quick">Quick</span></td>
+				<td>AOE</td>
+			</tr>			
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/ibaraki-douji target=_blank> <figure><img src=Images/ibarakiicon.webp alt="icone Ibaraki Douji" title="Ibaraki Douji"/><figcaption>Ibaraki Douji</figcaption></figure></a></td>
+			<td>Great Grudge of Rashomon</td>
+				<td><span class="buster">Buster</span></td>
+				<td>ST</td>
+			</tr>	
+			<tr>
+			<td><a href=https://gamepress.gg/grandorder/servant/lancelot target=_blank> <figure><img src=Images/lanceloticon.webp alt="icone Lancelot" title="Lancelot"/><figcaption>Lancelot</figcaption></figure></a></td>
+			<td>Knight of Owner</td>
+				<td><span class="quick">Quick</span></td>
+				<td>AOE</td>
+			</tr>
+		</table>
+	</article>
+</section>
+</div>
+<div id=fleche>
+<a href=#top><img src=Images/fleche.png width=10% height=10% alt="fleche haut"/></a>
+</div>
+<footer>
+	<h1 id=contact>Mes Contacts</h1>
+	<ul>
+		<li><a href="mailto:alx73000@gmail.com"><img src="Images/hiclipart.com.png" width=90% height=80% alt="icone mail" title="Me contacter"/></a></li>
+		<li><a href=https://twitter.com/bedwyr73 target=_blank><img src=Images/tweet.png width=90% height=80% alt="icone tweeter" title="Mon Tweeter"/></a></li>
+	</ul>
+	<p>Fate/Grand Order is Copyright Aniplex Inc., DELiGHTWORKS, Aniplex of America and Sony Music Entertainment (Japan) Inc. All Images and names owned and trademarked by Aniplex Inc., DELiGHTWORKS, Aniplex of America and Sony Music Entertainment (Japan) Inc. are property of their respective owners.</p>
+</footer>
+</body>
+</html>

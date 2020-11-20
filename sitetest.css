@@ -1,0 +1,268 @@
+
+*
+{
+	font-size: 1em;
+	font-family: verdana,impact;
+}
+
+header h2
+{
+color: white;
+margin-left: 1em;
+ 
+}
+
+.bloc h2
+{
+	color: white;
+	font-size: 1.5em;
+	font-family: verdana, arial, serif;
+	font-weight: bold;
+	font-style: oblique;
+	background-color: rgba(28, 48, 93);
+	border-left: 5px #b4baba outset;
+	border-right: 5px #b4baba inset;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgb(74, 81, 84);
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+h3
+{
+	color: white;
+	font-size: 1.5em;
+	font-family: verdana, arial, serif;
+	font-weight: bold;
+	font-style: oblique;
+	background-color: #b4baba;
+	border-left: 5px rgba(28, 48, 93) outset;
+	border-right: 5px rgba(28, 48, 93) inset;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgb(74, 81, 84);
+	width: 25%;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+.art
+{
+	color: #1647d4;
+		  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+.buster
+{
+	color: #e53c05;
+		  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+.quick
+{
+	color: #04cb44;
+	  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+h1
+{
+    font-size: 4em;
+    font-family: Impact, arial, "times new roman", serif;
+    font-weight: bold;
+    text-align: left;
+    color: #b4baba;
+    margin: auto;
+}
+em
+{
+	font-weight: bold;
+}
+strong
+{
+	font-style: oblique;
+	font-weight: bold;
+}
+p
+{
+	text-align: justify;
+}
+
+td, th
+{
+	border: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+
+}
+table
+{
+	border-collapse: collapse;
+	border: 3px;
+	margin: auto;
+	width: 100%;
+}
+
+th
+{
+	color: white;
+	background-color: rgba(28, 48, 93);
+}
+
+tr:nth-child(even)
+{
+	background-color: #b4baba;
+}
+
+td
+{
+	font-family: Arial, "times new roman", serif;
+}
+
+body
+{
+	background-image: url(Images/moroccan-flower-dark.png);
+	margin: 0;
+	padding: 0;
+}
+
+a:visited
+{
+	color: grey;
+}
+a
+{
+text-decoration: none;
+}
+
+
+.bloc li
+{
+	margin-bottom: 1em;
+}
+
+header
+{
+	background-color: rgb(28,48,93);
+	background-image: url(Images/Fate_Grand_Order_Logo.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: top right;
+	border-bottom: groove;
+	box-sizing: content-box;
+	padding: 2%;
+
+}
+
+nav
+{
+	position: fixed;
+	border: groove;
+	width: 9.5%;
+	padding-right: 1em;
+	background-color: white;
+
+}
+nav h1
+{
+	font-size: 2em;
+	color: rgba(28, 48, 93);
+	text-align: center;
+}
+
+nav li
+{
+	list-style-type: none; 
+	margin-bottom: 5px;
+}
+
+#fleche
+{
+position: fixed;
+right: -32em;
+bottom: 1em;
+opacity: 0.5;
+z-index: 2;
+}
+
+section
+{
+	margin-left: 10px;
+	padding: auto;
+	width: 85%;
+}
+
+footer
+{
+	background-color: rgb(28,48,93);
+	border-top: groove;
+	padding-bottom: 0.5em;
+	color: white;
+	position: absolute;
+	z-index: 1;
+}
+
+footer h1
+{
+	font-size: 2em;
+	color: silver;
+	text-shadow: none;
+}
+footer ul
+{
+
+    justify-content: space-between;
+	display: flex;
+	width: 10%;
+	height: 10%;
+	list-style-type: none;
+}
+
+mark
+{
+	background: none;
+	color: gold;
+
+	  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.bloc
+{
+	margin-left: 11%;
+	width: 80%;
+	position: center;
+	background-color: white;
+	padding-top: 2px;
+	text-align: justify;
+	padding-bottom: 2em;
+
+}
+
+aside
+{
+	float: right;
+	width: 40%;
+	border: groove;
+	margin: 1em;
+	margin-right:0;
+}
+
+
+
+.stop
+{
+	clear: both;
+}
+
+footer p
+{
+	opacity: 0.5;
+	padding-left: 5px;
+	padding-right: 5px;
+}
